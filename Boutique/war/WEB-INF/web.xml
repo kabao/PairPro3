@@ -24,6 +24,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/logn.do</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+    <servlet-name>add_linkdata</servlet-name>
+    <servlet-class>pair.AddLinkDataServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>add_linkdata</servlet-name>
+    <url-pattern>/add</url-pattern>
+</servlet-mapping>
 	
 	
 	
